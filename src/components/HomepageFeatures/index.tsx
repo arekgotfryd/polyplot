@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Plots on polymarkets',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        polyplot is place to create plots on polymarkets and share them with others.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Find insights',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Explore plots created by others to find insights and make better decisions.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Anyone can contribute',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Anyone can contribute to polyplot by creating and sharing their own plots.
       </>
     ),
   },
