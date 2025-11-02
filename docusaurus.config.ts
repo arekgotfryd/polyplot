@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'polyplot',
-  tagline: 'plots on polymarket',
+  tagline: 'your stories about polymarkets',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -89,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/arekgotfryd/polyplot',
           label: 'GitHub',
           position: 'right',
         },
@@ -129,12 +129,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/arekgotfryd/polyplot',
             },
           ],
         },
       ],
-      copyright: `polyplot built with Docusaurus.`,
+      copyright: `built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Explore plots created by others to find insights and make better decisions.
+        Explore polyplots created by others to find insights and make better decisions.
       </>
     ),
   },
